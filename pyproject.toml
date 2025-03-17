@@ -1,13 +1,10 @@
 [build-system]
-requires = [
-  "setuptools",
-  "windows-curses"
-]
+requires = ["setuptools","windows-curses"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "smart_inputs"
-dynamic = ["version"]
+version = '0.0.5'
 authors = [
   { name="Farbod Mahdian", email="farbod.coding+pip@gmail.com" },
 ]

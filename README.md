@@ -4,7 +4,11 @@ The more dynamic ways of asking for the user's inputs and handle the entered val
 
 # Installation
 
-`pip install smart_inputs`
+`pip install smart-inputs`
+
+# Requirements
+
+- windows-curses
 
 # GitHub link
 

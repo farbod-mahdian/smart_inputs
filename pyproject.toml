@@ -1,10 +1,10 @@
 [build-system]
-requires = ["setuptools","windows-curses"]
+requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "smart_inputs"
-version = '0.0.5'
+version = '0.0.6'
 authors = [
   { name="Farbod Mahdian", email="farbod.coding+pip@gmail.com" },
 ]
@@ -14,6 +14,9 @@ requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+  "windows-curses"
 ]
 
 [project.urls]
